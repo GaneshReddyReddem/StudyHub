@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #003366;
+    font-weight: 700;
+}
+
+/* Card Styling */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Header Colors */
+.card-header {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Link Styling */
+.card-body ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-body li {
+    margin-bottom: 10px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.card-body a:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}
